@@ -55,7 +55,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
--Super() is used to  pass any new attributes back up to the constructor of the parent object.
+-Super() is used to  pass any new attributes back up to the constructor of the parent object, also replaces explicit binding.
 
 ## Project Set up
 

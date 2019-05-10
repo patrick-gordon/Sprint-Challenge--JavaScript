@@ -25,12 +25,12 @@
 
 
 function CuboidMaker(attributes){
-  this.lenght = attributes.lenght;
+  this.length = attributes.length;
   this.width = attributes.width;
-  this.lenght = attributes.height;
+  this.height = attributes.height;
 }
 CuboidMaker.prototype.volume = function(){
-  return (this.lenght)*(this.width)*(this.height);
+  return this.length * this.width * this.height;
 }
 CuboidMaker.prototype.surfaceArea = function(){
   return 2 * ((this.length)*(this.width)+(this.length)*(this.height)+(this.width)*(this.height));
