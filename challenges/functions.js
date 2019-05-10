@@ -43,7 +43,7 @@ console.log(consume('Mary', 'Poppins', greeting))
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: 
+// Explanation: it is an example of lexcial scoping where the function is in block scope, but adding a new function inside the myFunction() changes the scope so that nestedFunction can have access to the variable outside of its scope.
 
 
 const external = "I'm outside the function";
